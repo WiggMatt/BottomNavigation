@@ -3,4 +3,16 @@
     <string name="open_nav">Open Navigation Drawer</string>
     <string name="Close_nav">Close Navigation Drawer</string>
     <string name="close_nav" />
+
+    <string-array name="dishes_china">
+        <item>Пекинская утка</item>
+        <item>Лапша с креветками</item>
+        <item>Жареный рис по-китайски</item>
+    </string-array>
+
+    <string-array name="dishes_italy">
+        <item>Паста карбонара</item>
+        <item>Пицца Маргарита</item>
+        <item>Лазанья</item>
+    </string-array>
 </resources>

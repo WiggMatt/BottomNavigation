@@ -5,12 +5,12 @@
     <item
         android:id="@+id/home"
         android:title="Что?"
-        android:icon="@drawable/ic_home"/>
+        android:icon="@drawable/baseline_food_bank_24"/>
 
     <item
         android:id="@+id/shorts"
         android:title="Где?"
-        android:icon="@drawable/ic_baseline_whatshot_24"
+        android:icon="@drawable/baseline_not_listed_location_24"
         />
 
     <item
@@ -19,10 +19,10 @@
     <item
         android:id="@+id/subscriptions"
         android:title="Когда?"
-        android:icon="@drawable/ic_baseline_subscriptions_24" />
+        android:icon="@drawable/baseline_calendar_month_24" />
     <item
         android:id="@+id/library"
         android:title="Кушаем!"
-        android:icon="@drawable/ic_baseline_video_library_24" />
+        android:icon="@drawable/baseline_basket_24" />
 
 </menu>

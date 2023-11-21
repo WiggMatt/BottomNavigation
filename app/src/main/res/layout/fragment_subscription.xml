@@ -1,25 +1,26 @@
-ё<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/lavender"
     tools:context=".HomeFragment">
 
-    <com.applandeo.materialcalendarview.CalendarView
+    <CalendarView
         android:id="@+id/calendarView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="16dp"
-        android:background="@android:color/transparent"
-        app:mcv_selectionColor="@color/purple_500"
-        app:mcv_showOtherDates="all"
-        app:mcv_headerTextColor="@android:color/white"
-        app:mcv_weekdaysTextColor="@android:color/white"
-        app:mcv_datesTextColor="@android:color/black"
-        app:mcv_arrowColor="@android:color/white"
-        app:mcv_selectionTextColor="@android:color/white"
-        app:mcv_selectionLabelTextColor="@android:color/white"
-        app:mcv_eventsEnabled="false"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
 
-</FrameLayout>
+    <Button
+        android:id="@+id/bookButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calendarView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Забронировать"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button_background"/>
+
+</RelativeLayout>
